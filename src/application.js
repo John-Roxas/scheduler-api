@@ -12,7 +12,7 @@ const app = express();
 
 const db = require("./db");
 
-// const days = require("./routes/days");
+const days = require("./routes/days");
 const [days, setDays] = useState([]);
 const appointments = require("./routes/appointments");
 const interviewers = require("./routes/interviewers");
