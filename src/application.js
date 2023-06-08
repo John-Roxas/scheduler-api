@@ -5,15 +5,15 @@ const express = require("express");
 const bodyparser = require("body-parser");
 const helmet = require("helmet");
 const cors = require("cors");
-import axios from "axios";
-import React, { useState, useEffect } from "react";
+// import axios from "axios";
+// import React, { useState, useEffect } from "react";
 
 const app = express();
 
 const db = require("./db");
 
 const days = require("./routes/days");
-const [days, setDays] = useState([]);
+// const [days, setDays] = useState([]);
 const appointments = require("./routes/appointments");
 const interviewers = require("./routes/interviewers");
 
